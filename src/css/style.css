@@ -2,6 +2,8 @@ body {
     background: #6c4cb7 url(../images/bg-desktop.svg) no-repeat;
     background-size: cover;
     font-family: 'Poppins', sans-serif;
+    max-width: 1440px;
+    max-heiht: 900px;
 }
 
 .header img {
@@ -115,8 +117,6 @@ a:hover .fa-instagram {
 }
 
 @media(max-width: 1338px) {
-
-
     .main {
         display: flex;
         justify-content: center;
